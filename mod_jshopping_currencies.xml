@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+    type="module" version="2.5.0" client="site" method="upgrade">
+<name>Pretty Jshopping Currencies</name>
+    <creationDate>06.12.2014</creationDate>
+    <author>Beagler</author>
+    <authorEmail>beagler@beagler.ru</authorEmail>
+    <authorUrl>http://beagler.ru</authorUrl>
+    <copyright></copyright> 
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>3.0.2</version>
+    <description>Displays a joomshopping currencies select list with flags</description>
+    <files>
+        <filename module="mod_jshopping_currencies_pretty">mod_jshopping_currencies.php</filename>
+        <folder>images</folder>
+		<folder>tmpl</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic"> 
+				<field
+                    name="eur"
+                    type="text"
+                    label="ID валюты eur"
+                    description="Посмотрите в Опции - Валюты" /> 
+				<field
+                    name="usd"
+                    type="text"
+                    label="ID валюты usd"
+                    description="Посмотрите в Опции - Валюты" /> 
+				<field
+                    name="rub"
+                    type="text"
+                    label="ID валюты rub"
+                    description="Посмотрите в Опции - Валюты" /> 
+				<field
+                    name="uah"
+                    type="text"
+                    label="ID валюты uah"
+                    description="Посмотрите в Опции - Валюты" /> 
+                <field
+                    name="moduleclass_sfx"
+                    type="text"
+                    label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                    description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />                               
+            </fieldset> 
+        </fields>
+    </config>     
+</extension>
